@@ -44,8 +44,7 @@ class CharactersPage extends StatelessWidget {
                   decoration: BoxDecoration(
                     boxShadow: [
                       BoxShadow(
-                        color: const Color(0xff97ce4c)
-                            .withOpacity(0.6),
+                        color: const Color(0xff97ce4c).withValues(alpha: 0.6),
                         blurRadius: 35,
                         spreadRadius: 8,
                       ),
